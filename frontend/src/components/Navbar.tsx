@@ -2,8 +2,8 @@ import { Icon } from "@/images"
 
 export const Navbar = () => {
   return (
-    <div className="p-4 my-5 text-xl">
-      <div className="flex mx-auto w-[1440px] justify-between items-center">
+    <div className="my-5 text-xl">
+      <div className="flex mx-auto w-[1440px] justify-between items-center fixed inset-x-0 top-0 bg-white z-20 h-20">
         <div className="flex gap-3 items-center font-bold">
           <Icon />
           <button>Khaankoo</button>

@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.navBtn {
-  position: relative;
-}
-.navBtn::after {
-  content: '';
-  position: absolute;
-  height: 5px;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  background: black;
-  transition: width .2s;
-}
-.navBtn:hover::after {
-  width: 100%;
-}
 /* navicon */
 .button-80 {
   background: #fff;
@@ -113,3 +97,14 @@
   color: #fff;
 }
 /* contact */
+
+.card {
+  position: relative;
+  box-shadow: 20px 50px 50px 20px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 30px;
+}
