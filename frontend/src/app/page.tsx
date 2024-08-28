@@ -1,4 +1,4 @@
-import { About, Navbar, Projects, Skills } from "@/components";
+import { About, Education, Navbar, Projects, Skills } from "@/components";
 import { Toggle } from "@/images";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Education />
       <Toggle />
     </div>
   );
