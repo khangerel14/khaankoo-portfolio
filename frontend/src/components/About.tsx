@@ -1,15 +1,19 @@
-'use client'
+'use client'; 
+
 import { Profile, Scroll } from "@/images";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-
-type TypewriterHelper = () => void;
+import { useRouter } from 'next/navigation'
 
 export const About = () => {
+  const router = useRouter()
   const [text] = useTypewriter({
     words: ['Developer', 'Coder', 'Full Stack Developer'],
     loop: true,
     delaySpeed: 2000,
   })
+  const about = () => {
+    router.push('/contact')
+  }
   return (
     <div className="flex flex-col items-center gap-14 my-10">
       <div className="flex max-w-screen-xl mx-auto items-center my-32">
@@ -23,7 +27,7 @@ export const About = () => {
             </div>
             <p className="text-lg">Your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with PROJECTS and lines of code, turning zeroes and ones into immersive, interactive experiences,</p>
           </div>
-          <button className="contact">contact me</button>
+          <button className="contact" onClick={about}>contact me</button>
         </div>
         <div className="flex justify-center items-center w-1/2 ml-20">
           <div className="rounded-full h-80 w-80 bg-black relative z-10">
