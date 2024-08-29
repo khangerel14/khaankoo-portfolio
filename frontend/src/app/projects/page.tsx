@@ -1,11 +1,12 @@
 import { Navbar, Projects } from '@/components'
-import React from 'react'
+import AnimatedCursor from 'react-animated-cursor'
 
 const Page = () => {
   return (
     <div>
-        <Navbar />
-        <Projects />
+      <AnimatedCursor />
+      <Navbar />
+      <Projects />
     </div>
   )
 }

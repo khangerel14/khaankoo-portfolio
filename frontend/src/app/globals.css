@@ -85,14 +85,14 @@
   touch-action: manipulation;
 }
 
-.button-89:hover,
-.button-89:focus-visible{
+.contact:hover,
+.contact:focus-visible{
   --_p: 0px;
   outline-color: var(--color);
   outline-offset: .05em;
 }
 
-.button-89:active {
+.contact:active {
   background: var(--color);
   color: #fff;
 }
@@ -108,3 +108,11 @@
   backdrop-filter: blur(5px);
   padding: 30px;
 }
+/*cursor*/
+.mask {
+  position: absolute;
+  mask-image: url('../../public/cursor.svg');
+  background-color: red;
+  background-repeat: no-repeat;
+}
+/*cursor*/
