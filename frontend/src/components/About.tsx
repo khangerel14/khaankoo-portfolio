@@ -19,7 +19,7 @@ export const About = () => {
       <div className="flex max-w-screen-xl mx-auto items-center my-32">
         <div className="flex flex-col gap-3 w-1/2 items-start justify-start h-64">
           <div className="flex flex-col text-3xl font-bold gap-3">
-            <h1>HI, I'm</h1>
+            <h1>HI, Im</h1>
             <p>Khangerel Be-ochir</p>
             <div className="flex text-xl gap-2">
               <h1>I am a</h1>
