@@ -25,7 +25,7 @@ export const About = () => {
           </div>
           <button className="contact">contact me</button>
         </div>
-        <div className="flex justify-center items-center w-1/2">
+        <div className="flex justify-center items-center w-1/2 ml-20">
           <div className="rounded-full h-80 w-80 bg-black relative z-10">
             <div className="transparent absolute z-20"><Profile /></div>
           </div>
