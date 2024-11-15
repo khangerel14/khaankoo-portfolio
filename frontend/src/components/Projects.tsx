@@ -1,4 +1,5 @@
 import { Ecommerce, Calculator, Expense, Fooddeli, Todo, Blog } from '@/images';
+import { title } from 'process';
 
 const imageComponents: Record<string, () => JSX.Element> = {
   Ecommerce: Ecommerce,
@@ -14,37 +15,49 @@ const mockData = [
     title: 'E-commerce',
     description:
       'It lets people buy your goods online and gives you a place to advertise your business. And it doesnt require customers to spend too much time.',
-    tech: 'Typescript, Javascript, React.js, TailwindCSS, Auth0',
+    tech: 'Typescript, Javascript, Next.js, TailwindCSS, Auth0',
   },
   {
     title: 'Blog Post',
     description:
       'The biggest benefits of a blog are boosting your website SEO, reaching your target market, and developing trust with your audience. These blogging results give you a higher chance of conversions, and building a sustainable business.',
-    tech: 'Javascript, React.js, TailwindCSS',
+    tech: 'Javascript, Next.js, TailwindCSS',
   },
   {
     title: 'Expense-tracker',
     description:
       'Savings is a guarantee. This website will help you calculate, record and track your money to build savings and save money.',
-    tech: 'Javascript, React.js, TailwindCSS, Chart.js, daisy.ui, Auth0',
+    tech: 'Javascript, Next.js, TailwindCSS, Chart.js, daisy.ui, Auth0',
   },
   {
     title: 'Todo-list',
     description:
       'People tend to forget many things in their busy lives. but by using this website, you wont forget anything.',
-    tech: 'Typescript, Javascript, React.js, TailwindCSS',
+    tech: 'Typescript, Javascript, Next.js, TailwindCSS',
   },
   {
     title: 'Food-delivery',
     description:
       'Ordering food for delivery is very easy in todays busy world. And Food-delivery will help you Ewerytime, Ewerywhere.',
-    tech: 'Typescript, Javascript, React.js, Google maps, TailwindCSS, Auth0',
+    tech: 'Typescript, Javascript, Next.js, Google maps, TailwindCSS, Auth0',
   },
   {
     title: 'Calculator',
     description:
       'Using a calculator can save time, increase accuracy, improve efficiency, and simplify complex calculations. It is especially critical for financial planning and can enhance learning by allowing students to focus on the underlying concepts.',
     tech: 'HTML5, CSS, Javascript',
+  },
+  {
+    title: '1950.mn',
+    description:
+      'Taxis are usually cheaper than owning a car or taking public transportation and regulated by local authorities, and drivers must pass background checks.',
+    tech: 'Next.js, Tailwind CSS, Shadcn UI',
+  },
+  {
+    title: 'One Day Mongolia',
+    description:
+      'It lets people buy your goods online and gives you a place to advertise your business. And it doesnt require customers to spend too much time.',
+    tech: 'Next.js, Tailwind CSS, Shadcn UI',
   },
 ];
 

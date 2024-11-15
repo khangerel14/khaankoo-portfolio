@@ -58,6 +58,8 @@ export const Navbar = () => {
           >
             Resume
           </a>
+        </div>
+        <div className='flex flex-col'>
           <a
             className='transform p-1.5 px-3 rounded-full button-80'
             href={'https://github.com/khangerel14'}
