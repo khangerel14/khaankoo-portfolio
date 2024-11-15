@@ -53,7 +53,7 @@ export const Navbar = () => {
           <a
             className='hover:text-violet-950 p-2 hover:translate-y-3 ease-in-out cursor-pointer transition'
             href={
-              'https://ecommerce-team-4.my.canva.site/original-size-gray-minimalist-clean-professional-cv-resume'
+              'https://ecommerce-team-4.my.canva.site/original-size-original-size-gray-minimalist-clean-professional-cv-resume'
             }
           >
             Resume
